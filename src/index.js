@@ -17,4 +17,4 @@ app.use(routes)
 
 app.use(errors())
 
-app.listen(3333)
+app.listen(process.env.PORT || 3000)
